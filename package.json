@@ -1,0 +1,56 @@
+{
+  "name": "generator-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bpmn-io/dmn-migrate": "^0.4.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "bpmn-auto-layout": "^0.1.0",
+    "bpmn-js": "^8.8.2",
+    "camunda-dmn-moddle": "^1.1.0",
+    "diagram-js": "^7.7.0",
+    "dmn-js": "^10.3.0",
+    "dmn-js-properties-panel": "^0.6.2",
+    "history": "^5.1.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.2",
+    "react-bpmn": "^0.2.0",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-xml-viewer": "^1.3.0",
+    "sass": "^1.43.4",
+    "web-vitals": "^1.0.1",
+    "xml-beautify": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
